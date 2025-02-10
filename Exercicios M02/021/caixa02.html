@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgba(111, 200, 235, 0.205);
+            font-family: Arial, Helvetica, sans-serif;
+            width: 600px;
+            margin: auto;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+        }
+        main{
+            background-color: rgb(185, 184, 184);
+            padding: 10px;
+            height: 300px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            text-align: center;
+        }
+        article{
+            background-color: azure;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(210, 224, 224);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+        <main>
+            <h2>Noticias</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis culpa, vitae et ratione dolor quas fugiat eligendi at dignissimos consectetur corporis nihil id reiciendis magni iure blanditiis est dolores praesentium.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus voluptates, maiores veritatis provident quae, praesentium odit eligendi expedita sunt ipsa eaque animi odio repellat cupiditate sapiente. Veniam, est voluptas!</p>
+                <aside>Escrito por Jose almeida <br> <a href="#">referencia</a></aside>
+            </article>
+        </main>
+    <footer>
+        <p>Desenvolvido por herick</p>
+    </footer>
+</body>
+</html>

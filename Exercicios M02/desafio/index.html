@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de Links</title>
+    <style>
+        #Titulo-Principal{
+            font-family: Arial, Helvetica, sans-serif;
+            color:orangered;
+        }
+        div {
+            border: 8px solid orange;
+            padding: 8px;
+            width: 350px;
+            height: 250px;
+            background-color: yellow;
+        }
+        a{
+            text-decoration: none;
+            content: none;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+
+        .especial:hover{
+            color: yellowgreen;
+            text-decoration: underline;
+        }
+        .especial::before{
+            content: '⇨';
+        }
+        .especial::after{
+            content: '⇦';
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="Titulo-Principal">Meus links</h1>
+        <h1>alguns deles</h1>
+        <p>Aqui você encontra meu <a href="#" class="especial">instagram</a></p>
+        <p>Aqui está meu <a href="#" class="especial">github</a></p>
+        <p>E o meu <a href="#" class="especial">Facebook</a></p>
+    </div>
+</body>
+</html>
